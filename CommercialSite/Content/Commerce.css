@@ -102,6 +102,9 @@
     .product-wrapper .product-item {
         margin-bottom: 50px;
     }
+    .product-wrapper .product-item figure img {
+        border-radius:4px;
+    }
 
         .product-wrapper .product-item .name {
             padding: 10px;
