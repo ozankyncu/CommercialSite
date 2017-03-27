@@ -37,9 +37,14 @@
             position:relative;
             display:inline-block;
             clear:both;
+           
     }
+        .main-header .shopping-cart i {
+            font-size: 22px;
+            color: #52578d;
+        }
     .main-header .shopping-cart .item-count {
-            position:absolute;
+            position: absolute;
             right: -10px;
             bottom: -10px;
             background-color: #f72464;
@@ -47,5 +52,15 @@
             font-family: 'Muli', sans-serif;
             font-size:11px;
             border-radius: 100%;
-            padding:3px 6px;
+            padding:3px 7px;
     }
+        /*Bootsrap Carousel Control Overrides*/
+/*.carousel-control span {
+    position:absolute;
+    top: 45%;
+    left: 20px;
+    font-size:40px;
+}
+.carousel-control.right span {
+    right: 20px;
+}*/
