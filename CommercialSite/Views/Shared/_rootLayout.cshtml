@@ -4,6 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i" rel="stylesheet">
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/font-awesome.css" rel="stylesheet" />
     <link href="~/Content/Commerce.css" rel="stylesheet" />
@@ -17,24 +18,7 @@
 </head>
 <body>
     <div class="main-wrapper">
-        <header class="main-header">
-            <div class="container">
-                <div class="row">
-                    <!--Col sayısını default olarak 12ye tamamlamak zorundayım-->
-                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                        <img src="~/images/logo.jpg" />
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-                        DENEME DENEME DENEME
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
-                        <i class="fa fa-shopping-cart">
-
-                        </i>
-                    </div>
-                </div>
-            </div>
-        </header>
+        @Html.Partial("_Header")
         @RenderBody()
     </div>
 </body>

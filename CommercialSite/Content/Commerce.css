@@ -2,3 +2,50 @@
     padding:15px 0;
     border-bottom: 1px solid #eee;
 }
+    .main-header .main-nav {
+
+    }
+        .main-header .main-nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            /*display:flex;*/
+        }
+            .main-header .main-nav ul after {
+                clear:both;
+                content: ' ';
+                overflow: hidden;
+                display: block;
+            }
+            .main-header .main-nav ul li {
+                float:left;
+            }
+                .main-header .main-nav ul li a {
+                    display:block;
+                    padding:0;
+                    margin:0 15px;
+                    color: #52575d;
+                    font-weight:bold;
+                    font-family: 'Muli', sans-serif;
+                    text-decoration:none;
+                    font-size:14px;
+                }
+                    .main-header .main-nav ul li a:hover {
+                        color: #f72464;
+                    }
+    .main-header .shopping-cart {
+            position:relative;
+            display:inline-block;
+            clear:both;
+    }
+    .main-header .shopping-cart .item-count {
+            position:absolute;
+            right: -10px;
+            bottom: -10px;
+            background-color: #f72464;
+            color: #fff;
+            font-family: 'Muli', sans-serif;
+            font-size:11px;
+            border-radius: 100%;
+            padding:3px 6px;
+    }
