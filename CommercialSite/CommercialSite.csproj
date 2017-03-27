@@ -176,6 +176,8 @@
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_MainSlider.cshtml" />
     <Content Include="Views\Shared\_HomePageProducts.cshtml" />
+    <Content Include="Views\Shared\_MessageBar.cshtml" />
+    <Content Include="Views\Shared\_FeaturedProducts.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
